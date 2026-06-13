@@ -49,3 +49,11 @@ To run this project locally on your machine:
 1. **Vision & Mapping:** The application captures the user's webcam feed and passes it to the MediaPipe Hand Landmarker. MediaPipe acts as the "eyes," identifying the spatial coordinates (X, Y, Z) of 21 unique hand points.
 2. **Logic & Math:** The app continuously monitors the coordinates of Landmark 4 (Thumb Tip) and Landmark 8 (Index Finger Tip). Using the Pythagorean theorem (`Math.hypot`), it calculates the exact pixel distance between these two points. When the distance drops below a set threshold, the application registers a `Pinch` event.
 3. **Generative Rendering:** To get that cyberpunk neon glow, the canvas isolates the fingertip coordinates `[4, 8, 12, 16, 20]` and draws multi-layered strokes with shadow blurs to simulate neon light tubes.
+
+
+
+Live Demo:
+
+   ```bash
+   [git clone https://github.com/Madhuravishan/Neon-gesture-bridge.git](https://madhuravishan.github.io/Neon-gesture-bridge/)
+   ```
