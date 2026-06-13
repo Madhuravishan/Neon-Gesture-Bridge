@@ -55,5 +55,5 @@ To run this project locally on your machine:
 Live Demo:
 
    ```bash
-   [git clone https://github.com/Madhuravishan/Neon-gesture-bridge.git](https://madhuravishan.github.io/Neon-gesture-bridge/)
+https://madhuravishan.github.io/Neon-gesture-bridge/
    ```
