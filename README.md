@@ -1,5 +1,5 @@
 # 🌌 Neon Bridge: Real-Time Hand Tracking
-![Neon Bridge Demo](./assets/demo.gif)
+![Neon Bridge Demo](demo.png)
 
 An interactive computer vision web application that tracks hand movements in real-time, renders glowing neon lines between fingertips, and detects pinch gestures using a webcam.
 
