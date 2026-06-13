@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hand Fingertip Connector</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      background: #0f1117;
+      color: #e8eaed;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    h1 { font-size: 1.25rem; font-weight: 600; }
+    #status { font-size: 0.875rem; color: #9aa0a6; }
+    #canvas {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+      background: #1a1d26;
+    }
+    p.hint { font-size: 0.8rem; color: #6b7280; max-width: 640px; text-align: center; padding: 0 1rem; }
+  </style>
+  <script type="module" crossorigin src="/Neon-gesture-bridge/assets/index-DQOlNw4z.js"></script>
+</head>
+<body>
+  <h1>Fingertip Connector</h1>
+  <p id="status">Loading MediaPipe…</p>
+  <canvas id="canvas"></canvas>
+  <p class="hint">Show two hands to link matching fingertips with neon lines between them.</p>
+  <video id="video" playsinline muted hidden></video>
+
+</body>
+</html>
